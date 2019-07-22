@@ -5,7 +5,7 @@ folder(baseFolder) {
   discription = 'Example job'
 }
 
-job() {
+job("$baseFolder/example") {
   steps {
     echo "hello form $repo"
   }
